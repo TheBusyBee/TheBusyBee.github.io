@@ -1,7 +1,7 @@
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
-
+paginate: 2
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments
 
@@ -16,6 +16,11 @@ author :
   github : username
   twitter : username
   feedburner : feedname
+classes:
+    - visible-lg
+    - visible-md
+    - visible-sm
+    - visible-xs
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -27,7 +32,7 @@ author :
 #
 production_url : http://username.github.io
 
-gems: ["jekyll-sitemap"]
+gems: ["jekyll-sitemap", "jekyll-paginate"]
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -76,6 +81,7 @@ JB :
   tags_path : /tags.html
   atom_path : /atom.xml
   rss_path : /rss.xml
+
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.

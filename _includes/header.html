@@ -1,0 +1,117 @@
+﻿<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="border: solid; border-color:#D7D6D6;border-width:1px;border-bottom:none; background-color:rgba(0, 0, 0, 0.69);">
+        <nav class="navbar navbar-dark-dark no-border-radius no-shadow xs-height75 navbar-static-top" id="main_navbar" role="navigation">
+            <div class="navbar-header"> 
+                <a href="{{BASE_PATH}}/index.html"> <img src="/assets/images/logo-white-letter.png" class="img-responsive" alt="BioNex Solutions" image-brand id="image-brand" /></a>
+            </div>
+            <div class="collapse navbar-collapse " id="navbar-brand_size_lg">
+                <ul class="nav navbar-nav navbar-right">
+                    <!--[if gt IE 8]><!-->
+                    <li class="dropdown-full">
+                        <a data-toggle="dropdown" href="javascript:;" class="dropdown-toggle">Instruments<span class="caret"></span></a>
+                        <div class="dropdown-menu no-shadow no-border-radius ">
+                            <div class="show-grid">
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                    {% for class in site.classes %}
+                                    <span class="{{class}}"><a class="dropper" href="{{BASE_PATH}}/bumblebee.html"> <img src="{{BASE_PATH}}/assets/images/navbar-images/bumblebee-navbar.png" /></a></span>
+                                    {% endfor %}
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                    {% for class in site.classes %}<span class="{{class}}"><a class="dropper" href="{{BASE_PATH}}/centrifuge.html"><img src="/assets/images/navbar-images/hig-navbar.png" /></a></span>{% endfor %}
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                    {% for class in site.classes %}
+                                    <span class="{{class}}"><a class="dropper" href="{{BASE_PATH}}/beesure.html"><img src="/assets/images/navbar-images/BeeSure-navbar.png" /></a></span>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            <div class="show-grid">
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                    {% for class in site.classes %}
+                                    <span class="{{class}}"><a class="dropper" href="{{BASE_PATH}}/bnx1536.html"> <img src="/assets/images/navbar-images/BNX1536-navbar.png" /></a></span>
+                                    {% endfor %}
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                    {% for class in site.classes %}
+                                    <span class="{{class}}"><a class="dropper" href="{{BASE_PATH}}/stinger.html"> <img src="/assets/images/navbar-images/le1-navbar.png" /></a></span>
+                                    {% endfor %}
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                    {% for class in site.classes %}
+                                    <span class={{class}}><a class="dropper" href="{{BASE_PATH}}/nanodrop.html"> <img src="/assets/images/navbar-images/nanodrop-navbar.png" /></a></span>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown-full ">
+                        <a data-toggle="dropdown" href="javascript:;" class="dropdown-toggle"> Systems<span class="caret"></span></a>
+                        <div class="dropdown-menu no-shadow no-border-radius ">
+                            <div class="show-grid">
+                                <div class="col-xs-12 col-sm-12col-md-6 col-lg-6">
+                                    {% for class in site.classes %}
+                                    <span class="{{class}}"><a class="dropper" href="{{BASE_PATH}}/hive.html"> <img src="/assets/images/navbar-images/hive-navbar.png" /></a></span>
+                                    {% endfor %}
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                    {% for class in site.classes %}
+                                    <span class="{{class}}"><a class="dropper" href="{{BASE_PATH}}/systems.html"> <img src="/assets/images/navbar-images/automation-solutions-navbar.png" /></a></span>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown-full ">
+                        <a data-toggle="dropdown" href="javascript:;" class="dropdown-toggle"> Software<span class="caret"></span></a>
+                        <div class="dropdown-menu no-shadow no-border-radius ">
+                            <div class="show-grid">
+                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                    {% for class in site.classes %}
+                                    <span class={{class}}><a class="dropper" href="{{BASE_PATH}}/vworks.html"> <img src="/assets/images/navbar-images/vworks-navbar.png" /></a></span>
+                                    {% endfor %}
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                    {% for class in site.classes %}
+                                    <span class="{{class}}">
+                                        <a class="dropper" href="{{BASE_PATH}}/synapsis.html"> <img src="/assets/images/navbar-images/synapsis-navbar.png" /></a>
+                                    </span>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown-full">
+                        <a data-toggle="dropdown" href="javascript:;" class="dropdown-toggle">Company<span class="caret"></span></a>
+                        <div class="dropdown-menu no-shadow no-border-radius ">
+                            <div class="show-grid">
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                    {% for class in site.classes %}
+                                    <span class="{{class}}">
+                                        <a class="dropper" href="{{BASE_PATH}}/contact.html"> <img src="/assets/images/navbar-images/Contact.png" /></a>
+                                    </span>
+                                    {% endfor %}
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                    {% for class in site.classes %}
+                                    <span class="{{class}}"><a class="dropper" href="careers.html"><img src="/assets/images/navbar-images/careers.png" /></a></span>
+                                    {% endfor %}
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                    {% for class in site.classes %}
+                                    <span class="{{class}}">
+                                        <a class="dropper" href="about.html">
+                                            <img src="/assets/images/navbar-images/about.png" />
+                                        </a>
+                                    </span>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown-full ">
+                        <a href="{{BASE_PATH}}/support.html" target="_blank" class="dropdown-toggle">Support<span class="caret"></span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
