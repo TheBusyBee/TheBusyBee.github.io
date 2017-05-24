@@ -63,32 +63,21 @@ id: home
            
             <br /><br/>
             <a href="{{ post.url }}">Read More</a>
-           
             {% else %}
             {{post.content}}
             {% endif %}
-
             <div class="clearfix"></div>
-
-
         </div>
         {% endfor %}
 
         <!-- Pagination links -->
         <div class="pagination">
-
             <ul>
-
                 {% if paginator.previous_page %}
-
-
                 <li><a href="{{ paginator.previous_page_path }}" class="previous">Previous</a></li>
                 {% else %}
-
-
                 <li><a>Previous</a></li>
                 {% endif %}
-
                 <li><a>Page: {{ paginator.page }} of {{ paginator.total_pages }}</a></li>
                 {% if paginator.next_page %}
                 <li><a href="{{ paginator.next_page_path }}" class="next">Next</a></li>
@@ -101,7 +90,7 @@ id: home
     <div class="col-lg-4 col-md-6" style="border: solid; border-color:#D7D6D6;border-width:1px;border-bottom:none; border-top:none;border-left:none; background-color:rgba(0, 0, 0, 0.69);">
         <!--<img class="pull-left" width="200" src="/assets/images/systems/AgSystem1.png" />-->
         <h4 style="color:white;">Events</h4>
-        <img class="pull-right img-rounded" src="assets/images/slas/slas.jpg" style="width:175px; padding-left:6px;padding-bottom:6px;"/>
+        <img class="pull-right img-rounded" src="{{BASE_PATH}}/assets/images/slas/slas.jpg" style="width:175px; padding-left:6px;padding-bottom:6px;"/>
         <p style="color:#D7D6D6; font-size:small">69th AACC Annual Scientific Meeting & Clinical Lab Expo, July 30th - August 1st 2017, San Diego, CA</p>
         <p style="color:#D7D6D6; font-size:small">13th Compound Management and Integrity Summit, August 28th - August 30th 2017, San Diego, CA</p>
 
