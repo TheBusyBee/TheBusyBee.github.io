@@ -57,8 +57,8 @@ id: home
             {% if post.content contains '<!--more-->' %}
 
             {{ post.content | split:'<!--more-->' | first }}
-           
-            <br /><br/>
+
+            <br /><br />
             <a href="{{ post.url }}">Read More</a>
             {% else %}
             {{post.content}}
@@ -87,18 +87,25 @@ id: home
     <div class="col-lg-4 col-md-6 front-page" style="border: solid; border-color:#D7D6D6;border-width:1px;border-bottom:none; border-top:none;border-left:none; background-color:rgba(0, 0, 0, 0.69);">
         <!--<img class="pull-left" width="200" src="/assets/images/systems/AgSystem1.png" />-->
         <h4 style="color:white;">Events</h4>
-        <img class="pull-right news-feed-img" src="{{BASE_PATH}}/assets/images/slas/slas.jpg" style="width:150px;"/>
-        <p class="">69th AACC Annual Scientific Meeting & Clinical Lab Expo, July 30th - August 1st 2017, San Diego, CA</p>
-        <p style="color:#D7D6D6; font-size:small">13th Compound Management and Integrity Summit, August 28th - August 30th 2017, San Diego, CA</p>
+        <img class="pull-right news-feed-img" src="{{BASE_PATH}}/assets/images/slas/slas.jpg" style="width:150px;" />
+        <p >69th AACC Annual Scientific Meeting & Clinical Lab Expo, July 30th - August 1st 2017, San Diego, CA</p>
+        <p>13th Compound Management and Integrity Summit, August 28th - August 30th 2017, San Diego, CA</p>
 
-        <h4  style="color:white;">Agilent Partnership</h4>
+        <h4 style="color:white;">Agilent Partnership</h4>
         <img class="pull-right news-feed-img" src="{{BASE_PATH}}/assets/images/systems/biocel.JPG" style="width:150px;" />
-        <p >In September of 2014, Agilent Technologies, Inc. and BioNex Solutions, Inc. announced the formation of a strategic partnership to better meet customer needs for custom automation workflow solutions. The combination of our respective product portfolios and two world-class organizations with deep knowledge and expertise in custom automation solutions, represents an opportunity to provide a much wider range of solutions than we have been able to provide individually, that we believe will better meet your evolving needs.</p>
-        <p>As strategic partners, BioNex Solutions will be the sole provider of Agilent custom integrated solutions. Custom automation platforms will be designed, delivered, and supported by BioNex, utilizing the powerful and time-tested VWorks software platform. Agilent is committed to working closely with customers to ensure a smooth transition to working directly with BioNex to ensure that together we can meet and exceed your needs going forward. BioNex Solutions, Inc. has extensive experience in this industry, including Agilent Automation products. Many BioNex employees were also formerly employees of Velocity 11.</p>
+        <p>
+            In September of 2014, Agilent Technologies, Inc. and BioNex Solutions, Inc. announced the formation of a strategic partnership to better meet customer needs for custom automation workflow solutions.
+            </p>
+        <a href="#">Read More</a>
+        <!--<p>
+            The combination of our respective product portfolios and two world-class organizations with deep knowledge and expertise in custom automation solutions, represents an opportunity to provide a much wider range of solutions than we have been able to provide individually, that we believe will better meet your evolving needs.
+        </p>-->
+       
+        <!--<p>As strategic partners, BioNex Solutions will be the sole provider of Agilent custom integrated solutions. Custom automation platforms will be designed, delivered, and supported by BioNex, utilizing the powerful and time-tested VWorks software platform. Agilent is committed to working closely with customers to ensure a smooth transition to working directly with BioNex to ensure that together we can meet and exceed your needs going forward. BioNex Solutions, Inc. has extensive experience in this industry, including Agilent Automation products. Many BioNex employees were also formerly employees of Velocity 11.</p>
 
-        <p>We are both very excited about how this strategic partnership can unleash even greater possibilities, and together with you, help to increase the potential and productivity of your laboratory.</p>
+        <p>We are both very excited about how this strategic partnership can unleash even greater possibilities, and together with you, help to increase the potential and productivity of your laboratory.</p>-->
 
 
-</div>
+    </div>
 
 </div>
