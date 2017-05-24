@@ -8,7 +8,7 @@ tags: []
 {% include JB/setup %}
 
 
-<img style="width:150px; padding-left:6px;" class="pull-right img-rounded" src ="/assets/images/newsfeed/starintegration.png"/>
+<img style="width:150px; " class="pull-right news-feed-img" src ="/assets/images/newsfeed/starintegration.png"/>
 BioNex Solutions and SuaSponte Diagnostics Partner to deliver wicked cool automation platform
 <!--more-->
 

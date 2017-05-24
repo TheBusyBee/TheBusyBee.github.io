@@ -468,3 +468,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     font-size:small;
 
 }
+.news-feed-img{
+
+    border:solid;
+    border-color:#D7D6D6;
+
+}
